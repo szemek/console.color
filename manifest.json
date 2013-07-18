@@ -1,0 +1,16 @@
+{
+  "name": "ColorConsole",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "console with colors",
+  "devtools_page": "console.html",
+  "permissions": [
+    "tabs",
+    "experimental",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "48": "icon_48.png"
+  }
+}

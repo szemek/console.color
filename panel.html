@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/inspector.css">
+    <link rel="stylesheet" href="css/colors.css">
+  </head>
+  <body class="platform-mac" id="-webkit-web-inspector">
+    <div id="console-view" class="visible">
+      <div id="console-messages" class="monospace">
+        <div class="console-group">
+          <div class="console-group-messages">
+          </div>
+        </div>
+        <span style="display: block;">
+          <div id="console-prompt" class="source-code text-prompt" spellcheck="false"></div>
+        </span><br>
+      </div>
+    </div>
+
+    <script type="text/template" id="console-message">
+      <div class="console-message">
+        <span class="console-message-text source-code {{color}}">
+          <span>{{text}}</span>
+        </span>
+      </div>
+    </script>
+
+    <!-- javascripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/panel.js"></script>
+  </body>
+</html>
