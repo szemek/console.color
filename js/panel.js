@@ -30,3 +30,7 @@ chrome.experimental.devtools.console.onMessageAdded.addListener(function(message
     $('.console-group-messages').append(item);
   }
 });
+
+$('button.clear').on('click', function(){
+  $('.console-group-messages .console-message').remove();
+});
